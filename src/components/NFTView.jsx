@@ -1,7 +1,7 @@
 //https://eth-mainnet.g.alchemy.com/v2/PuaAv6KQwf4lquxAoZZUKnzn9-tw-Rug
 import axios from 'axios'
 import { useEffect, useState } from 'react';
-
+//NFT explorer
 const NFTView = ({ wallet }) => {
     const [nfts, setNfts] = useState(null);
     const [error, setError] = useState(false);
